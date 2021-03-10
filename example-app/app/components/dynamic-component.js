@@ -1,5 +1,6 @@
 import React, { useMemo, Suspense } from 'react';
 import { Text, View } from 'react-native';
+import { fetchComponent } from "../utils";
 
 const DynamicComponent = ({ __id, children, ...props }) => {
     const Component = useMemo(() => {

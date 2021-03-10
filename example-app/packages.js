@@ -1,12 +1,16 @@
-import React from "react";
-import ReactNative from "react-native";
+import * as React from "react";
+import * as ReactNative from "react-native";
 import * as ReactRedux from "react-redux";
-import ReactNativeElements from "react-native-elements";
+import * as ReactNativeElements from "react-native-elements";
+import * as ReactNavigationNative from "@react-navigation/native";
+import * as Icons from "react-native-vector-icons";
 const Packages = {
     "react": () => React,
     "react-native": () => ReactNative,
     "react-redux": () => ReactRedux,
-    "react-native-elements": () => ReactNativeElements
+    "react-native-elements": () => ReactNativeElements,
+    "@react-navigation/native": () => ReactNavigationNative,
+    "react-native-vector-icons": () => Icons
 }
 
 

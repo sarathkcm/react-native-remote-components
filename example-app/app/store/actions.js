@@ -1,5 +1,5 @@
 
-import nanoid from "nanoid";
+import { nanoid } from "nanoid";
 
 export const ADD_TODO = "store/add-todo";
 export const TOGGLE_TODO = "store/toggle-todo";
